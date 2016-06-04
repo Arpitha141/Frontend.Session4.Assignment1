@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>speech bubble shape</title>
+	<style type="text/css">
+		.box{
+			height: 150px;
+			width: 200px;
+			background-color:  #00e6e6;
+			margin-left: 100px;
+			margin-top: 50px;
+			border-radius: 20px;
+			position: absolute;
+		}
+
+		.box:before{
+			content: "";
+			position: absolute;
+			height: 0px;
+			width: 0px;
+			border-top: 25px solid transparent;
+			border-right: 40px solid #00e6e6;
+			border-bottom: 25px solid transparent;
+			margin: 25px 0 0 -40px;
+		}
+	</style>
+</head>
+<body>
+<h1>Speech Bubble Shape</h1>
+<div class="box"></div>
+</body>
+</html>
